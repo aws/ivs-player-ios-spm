@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "AmazonIVSPlayer",
     platforms: [
-        .iOS("15.0"),
+        .iOS("14.0"),
     ],
     products: [
         .library(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmazonIVSPlayer",
-            url: "https://player.live-video.net/1.58.0-rc.1/AmazonIVSPlayer.xcframework.zip",
-            checksum: "b1b2b1221622bdbb2bceeb9c398a64743c0e4876922ae1e6a36d406328491942"
+            url: "https://player.live-video.net/1.56.2/AmazonIVSPlayer.xcframework.zip",
+            checksum: "c957dafcf5a747e5815fb21a5738e31c645de40174f67e317445036e0a429773"
         ),
     ]
 )
