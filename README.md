@@ -4,7 +4,7 @@ This repository contains the [Swift Package Manager](https://www.swift.org/docum
 
 ## Requirements
 
-- iOS 14.0+
+- iOS 15.0+
 - Xcode 15.0+
 
 ## Installation
@@ -25,7 +25,7 @@ Or add it to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/aws/ivs-player-ios-spm", from: "1.55.0")
+    .package(url: "https://github.com/aws/ivs-player-ios-spm", from: "1.57.0")
 ]
 ```
 
